@@ -47,7 +47,7 @@ class ShopPage extends StatelessWidget {
 
           // product list
           SizedBox(
-            height: 550,
+            height: 570,
             child: ListView.builder(
               itemCount: products.length,
               scrollDirection: Axis.horizontal,

@@ -17,8 +17,8 @@ class MyDrawer extends StatelessWidget {
               DrawerHeader(
                 child: Center(
                   child: Icon(
-                    Icons.shopping_bag_outlined,
-                    size: 72,
+                    Icons.computer,
+                    size: 100,
                     color: Theme.of(context).colorScheme.inversePrimary,
                   ),
                 ),
