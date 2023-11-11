@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 void main() {
   runApp(
+    // Provider package setup for state management
     ChangeNotifierProvider(create: (context) => Shop(), child: const MyApp()),
   );
 }
@@ -21,6 +22,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const IntroPage(),
       theme: lightMode,
+
+      // routes for navigation
       routes: {
         '/intro_page': (context) => const IntroPage(),
         '/shop_page': (context) => const ShopPage(),

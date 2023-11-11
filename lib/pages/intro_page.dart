@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:minimal_ecommerce_app_yt/components/my_button.dart';
-import 'package:minimal_ecommerce_app_yt/pages/shop_page.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -13,17 +12,17 @@ class IntroPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //logo
+            // Main logo image
             Icon(
-              Icons.shopping_bag_outlined,
-              size: 72,
+              Icons.computer,
+              size: 100,
               color: Theme.of(context).colorScheme.inversePrimary,
             ),
 
             const SizedBox(height: 25),
-            //title
+            // Store name
             Text(
-              "PurePalette",
+              "Imperial Innovations",
               style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
@@ -31,9 +30,9 @@ class IntroPage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
 
-            //subtitle
+            // Store slogan
             Text(
-              "Unveil Elegance in Every Hue",
+              "INNOVATE WITH DISTINCTION",
               style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
@@ -41,10 +40,11 @@ class IntroPage extends StatelessWidget {
             ),
             const SizedBox(height: 25),
 
-            //button
+            // Button to navigate to shop page
             MyButton(
-                onTap: () => Navigator.pushNamed(context, '/shop_page'),
-                child: const Icon(Icons.arrow_forward)),
+              onTap: () => Navigator.pushNamed(context, '/shop_page'),
+              child: const Icon(Icons.arrow_forward),
+            ),
           ],
         ),
       ),
