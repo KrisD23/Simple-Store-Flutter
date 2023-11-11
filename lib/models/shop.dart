@@ -6,33 +6,29 @@ class Shop extends ChangeNotifier {
   final List<Product> _shop = [
     // product 1
     Product(
-      name: 'Product 1',
-      description: 'This is product 1',
-      price: 100,
-      //imagePath: 'assets/images/product1.png'
-    ),
+        name: 'Macbook Pro',
+        description: 'Macbook Pro 2023',
+        price: 100,
+        imagePath: 'assets/mac.jpg'),
 
     // product 2
     Product(
-      name: 'Product 2',
-      description: 'This is product 2',
-      price: 200,
-      //imagePath: 'assets/images/product2.png'
-    ),
+        name: 'Watch',
+        description: 'Watch',
+        price: 200,
+        imagePath: 'assets/watch.jpg'),
     // product 3
     Product(
-      name: 'Product 3',
-      description: 'This is product 3',
-      price: 300,
-      //imagePath: 'assets/images/product3.png'
-    ),
+        name: 'Mouse',
+        description: 'Mouse',
+        price: 300,
+        imagePath: 'assets/mouse.jpg'),
     // product 4
     Product(
-      name: 'Product 4',
-      description: 'This is product 4',
-      price: 400,
-      //imagePath: 'assets/images/product4.png'
-    ),
+        name: 'Airpods',
+        description: 'Airpods',
+        price: 400,
+        imagePath: 'assets/airpods.jpg'),
   ];
 
   // user cart

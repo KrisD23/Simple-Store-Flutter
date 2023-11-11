@@ -61,7 +61,7 @@ class MyProductTile extends StatelessWidget {
                   ),
                   width: double.infinity,
                   padding: EdgeInsets.all(25),
-                  child: Icon(Icons.face_retouching_natural),
+                  child: Image.asset(product.imagePath),
                 ),
               ),
               const SizedBox(height: 25),
