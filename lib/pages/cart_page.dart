@@ -7,8 +7,12 @@ class CartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Cart Page"),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        foregroundColor: Theme.of(context).colorScheme.inversePrimary,
+        title: const Text("Cart Page"),
       ),
+      backgroundColor: Theme.of(context).colorScheme.background,
     );
   }
 }
