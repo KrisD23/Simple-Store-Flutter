@@ -21,10 +21,4 @@ This is a minimal ecommerce app built with Flutter.
 ![Screenshot 3](Project_ScreenShots/3.png)
 ![Screenshot 4](Project_ScreenShots/4.png)
 
-## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
